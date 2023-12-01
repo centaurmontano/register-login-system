@@ -12,20 +12,20 @@ A simple fullstack web application for user registration and login using Node.js
 - [MongoDB](#mongodb)
 - [Detailed Guideline/Client Requirements](#detailed-guidelineclient-requirements)
 
-## Required Material
+## Required Material and Installation
 
 To run this project, you will need the following:
 
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/try/download/community)
-- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+- [Node.js](https://nodejs.org/){:target="_blank"}
+- [MongoDB](https://www.mongodb.com/try/download/community){:target="_blank"}
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass){:target="_blank"}
 
 ## Recommended Code Editors
 
 While you can use any code editor of your choice, the following editors are commonly used and supported for this project:
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Sublime Text](https://www.sublimetext.com/)
-- [Atom](https://atom.io/)
+- [Visual Studio Code](https://code.visualstudio.com/){:target="_blank"}
+- [Sublime Text](https://www.sublimetext.com/){:target="_blank"}
+- [Atom](https://atom.io/){:target="_blank"}
 
 ## Specifications
 
@@ -61,13 +61,6 @@ The project uses MongoDB as the database to store user data.
 - If the login credentials are correct, the user receives a login successful message.
 - If the login credentials are incorrect, the user receives a login failure message.
 - Links to the main page, login page, and register page are available on different pages.
-
-## Required Material and Installation
-To run this project, you will need the following:
-
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/try/download/community)
-- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
 Follow these steps to set up and run the project:
 
