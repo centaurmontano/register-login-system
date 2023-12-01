@@ -15,6 +15,7 @@ A simple full-stack web application for user registration and login using Node.j
 - [MongoDB](#mongodb)
 - [Detailed Guideline/Client Requirements](#detailed-guidelineclient-requirements)
 - [Setting Up and Running the Project](#setting-up-and-running-the-project)
+- [How to Install MongoDB and Connect MongoDB Compass to Localhost] (#How-to-Install-MongoDB-and-Connect-MongoDB-Compass-to-Localhost).
 - [License](#license)
 
 ## Required Material and Installation
@@ -82,4 +83,45 @@ npm install
 
 3. Start the application
 npm start 
+
+## How to Install MongoDB and Connect MongoDB Compass to Localhost
+
+Follow these steps to install MongoDB and connect MongoDB Compass to localhost:
+
+1. **Download and Install MongoDB Community Server:**
+   - Visit the [MongoDB Community Server download page](https://www.mongodb.com/try/download/community) and download the appropriate version for your operating system.
+   - Follow the installation instructions provided for your OS.
+
+2. **Open Command Prompt (CMD):**
+   - Open the Command Prompt on your computer.
+
+3. **Navigate to MongoDB Bin Directory:**
+   - Copy the path of the bin folder in the MongoDB installation directory.
+   - Use the `cd` command to navigate to the bin directory in the Command Prompt. For example:
+     ```bash
+     cd C:\Program Files\MongoDB\Server\{version}\bin
+     ```
+
+4. **Start MongoDB Server:**
+   - In the Command Prompt, type the following command to start the MongoDB server:
+     ```bash
+     mongod
+     ```
+
+5. **Open MongoDB Compass:**
+   - Launch MongoDB Compass on your computer.
+
+6. **Connect to Localhost:**
+   - In MongoDB Compass, you should see the Connect screen.
+   - For the "Hostname" field, enter `localhost`.
+   - For the "Port" field, enter `27017`.
+   - Click the "Connect" button.
+
+7. **Verify Connection:**
+   - MongoDB Compass should connect to the local MongoDB server, and you will see the admin, config, and local databases.
+   - The connection string should be similar to `mongodb://localhost:27017`.
+
+Now you have successfully installed MongoDB and connected MongoDB Compass to localhost. You can use this local MongoDB server for your project.
+
+Make sure to customize the instructions based on your specific needs and provide any additional information that might be relevant for your users.
 
