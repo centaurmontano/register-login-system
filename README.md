@@ -15,10 +15,7 @@ A simple full-stack web application for user registration and login using Node.j
 - [MongoDB](#mongodb)
 - [Detailed Guideline/Client Requirements](#detailed-guidelineclient-requirements)
 - [Setting Up and Running the Project](#setting-up-and-running-the-project)
-## How to Install MongoDB and Connect MongoDB Compass to Localhost
-
 - [How to Install MongoDB and Connect MongoDB Compass to Localhost](#how-to-install-mongodb-and-connect-mongodb-compass-to-localhost)
-
 - [License](#license)
 
 ## Required Material and Installation
