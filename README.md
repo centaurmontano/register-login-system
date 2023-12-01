@@ -19,7 +19,7 @@ To run this project, you will need the following:
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 - [MongoDB Compass](https://www.mongodb.com/try/download/compass)
-- 
+
 ## Recommended Code Editors
 
 While you can use any code editor of your choice, the following editors are commonly used and supported for this project:
@@ -73,7 +73,8 @@ Follow these steps to set up and run the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/centaurmontano/register-login-system.git
+
    ```
 
 2. Install dependencies:
