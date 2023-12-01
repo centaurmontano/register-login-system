@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Specify character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configure viewport for responsive design -->
+    <title>SignUp</title>
+    <!-- Set the title of the page -->
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>SignUp</h2>
+
+      <!-- Login form with action set to "/login" and method set to "post" -->
+      <form action="/signup" method="post">
+        <!-- Form group for username -->
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <!-- Input for username with required attribute and autocomplete turned off -->
+          <input
+            type="text"
+            id="name"
+            name="username"
+            placeholder="Enter your name"
+            required
+            autocomplete="off"
+          />
+        </div>
+
+        <!-- Form group for password -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <!-- Input for password with required attribute -->
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+            required
+          />
+        </div>
+
+        <!-- Submit button for the form -->
+        <button type="submit" class="submit-btn">SignUp</button>
+
+      <p>Already have an account? <a href="/">Sign in</a></p>
+    </div>
+  </body>
+</html>
+      </form>
+    </div>
+  </body>
+</html>

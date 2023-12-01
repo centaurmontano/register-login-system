@@ -1,0 +1,66 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh; /* Set body height to 100% of viewport height */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Style for heading level 2 */
+h2 {
+    text-align: center; /* Center text horizontally within the element */
+    margin-bottom: 30px; /* Add margin at the bottom */
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid;
+    border-top-right-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold; /* Added a missing semicolon */
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid; /* Added a missing semicolon */
+    border-radius: 3px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(8, 60, 102);
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: aquamarine;
+}
+
+p {
+    margin-top: 15px;
+}
