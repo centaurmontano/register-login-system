@@ -16,9 +16,9 @@ A simple fullstack web application for user registration and login using Node.js
 
 To run this project, you will need the following:
 
-- [Node.js](https://nodejs.org/){:target="_blank"}
-- [MongoDB](https://www.mongodb.com/try/download/community){:target="_blank"}
-- [MongoDB Compass](https://www.mongodb.com/try/download/compass){:target="_blank"}
+- [Node.js](https://nodejs.org/) {:target="_blank"}
+- [MongoDB](https://www.mongodb.com/try/download/community) {:target="_blank"}
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass) {:target="_blank"}
 
 ## Recommended Code Editors
 
