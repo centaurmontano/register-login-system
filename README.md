@@ -125,3 +125,7 @@ Now you have successfully installed MongoDB and connected MongoDB Compass to loc
 
 Make sure to customize the instructions based on your specific needs and provide any additional information that might be relevant for your users.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
